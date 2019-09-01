@@ -1,0 +1,10 @@
+service test
+{
+    server = /usr/bin/python3
+    server_args = /test.py
+    port = 2333
+    protocol = tcp
+    type = UNLISTED
+    user = test
+    wait = no
+}
